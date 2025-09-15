@@ -5,7 +5,7 @@ import logo from '../assets/logo.png'
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
+    <nav className="w-full bg-white shadow-md sticky rounded-b-2xl z-50">
       <div className="flex justify-between items-center w-full px-6 py-4">
         <img className="w-32" src={logo} alt="Logo" />
         {/* Desktop Links */}

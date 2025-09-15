@@ -19,9 +19,9 @@ function App() {
         <Route path='/watchlist' element={<Watchlist/>} />
       </Routes>
     </BrowserRouter>
-      <p className=" font-sans text-red-500 text-center">
+      {/* <p className=" font-sans text-red-500 text-center">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
